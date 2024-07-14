@@ -2,6 +2,7 @@
 - git clone git@github.com:jasonkaplan79/laravel_vidstack.git 
 - cd laravel_vidstack
 - composer install 
+- cp .env.example .env
 - php artisan migrate --seed 
 - npm install 
 - npm run build 
