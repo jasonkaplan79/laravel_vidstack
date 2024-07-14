@@ -3,11 +3,10 @@
 - cd laravel_vidstack
 - composer install 
 - cp .env.example .env
-- php artisan migrate --seed 
+- php artisan migrate --seed (when prompted to create a SQLite Database "Would you like to create it?" Say Yes)
 - php artisan key:generate
 - npm install 
 - npm run build 
 - php artisan serve 
 - Go to the URL like http://localhost:8000, http://127.0.0.1:8000 etc.
 - Go to /test1
-- Go to /test2
