@@ -1,5 +1,5 @@
 <template>
-    <div class="w-1/3">
+    <div class="w-1/2">
         <media-player
             class="player"
             title="Sprite Fight"
@@ -39,12 +39,11 @@ console.log('videoPath', props.videoPath);
 
 // Import styles.
 import 'vidstack/player/styles/default/theme.css';
-import 'vidstack/player/styles/default/layouts/audio.css';
 import 'vidstack/player/styles/default/layouts/video.css';
 
 // Register elements.
 import 'vidstack/player';
-import 'vidstack/player/layouts';
+import 'vidstack/player/layouts/default';
 import 'vidstack/player/ui';
 
 import { isHLSProvider } from 'vidstack';

@@ -12,3 +12,7 @@ Route::get('/', function () {
 Route::get('/test1', function () {
     return Inertia::render('Test1', []);
 })->name('test1');
+
+Route::get('/test2', function () {
+    return Inertia::render('Test2', []);
+})->name('test2');
